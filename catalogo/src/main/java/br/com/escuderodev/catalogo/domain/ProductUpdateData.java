@@ -6,6 +6,7 @@ import jakarta.validation.constraints.NotNull;
 import java.math.BigDecimal;
 
 public record ProductUpdateData(
+        Long id,
         @NotBlank(message = "o nome é obrigatório")
         String productName,
         @NotNull(message = "o valor é obrigatório")
