@@ -1,4 +1,4 @@
-package br.com.escuderodev.catalogo.domain;
+package br.com.escuderodev.catalogo.domain.product;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 
